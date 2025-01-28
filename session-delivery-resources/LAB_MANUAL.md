@@ -220,7 +220,7 @@ This demo is best delivered in debug mode.
 
 Follow these steps:
 
-1. The project is set up to run in GitHub Codespaces. From [ai-tour-maas-demo-1](https://github.com/gloveboxes/ai-tour-maas-demo-1), select **<> Code** and then **Open with Codespaces**.
+1. The project is set up to run in GitHub Codespaces. From [ai-tour-maas-demo-1](https://github.com/microsoft/aitour-models-as-a-service-15-minute-theatre-talk), select **<> Code** and then **Open with Codespaces**.
 2. Open the `main.py` file.
 3. Set the following breakpoints:
    1. At the line where the model is loaded at `client = ChatCompletionsClient(`.
