@@ -34,6 +34,7 @@ If you want to deliver this talk yourself, you can find the [presenter and proct
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
+| Session resources  | [Session Resources](./session-delivery-resources/README.md) | Resources for the session, including slides, demos, and deployment instructions. |
 
 ## Content Owners
 
