@@ -18,7 +18,7 @@ You'll learn anbout AI Foundry Models as a Service and the Azure AI Model Infere
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-|  Workshop Manual       | [AI Tour MAAS 15-minute theatre talk](LAB_MANUAL) | Lab Guide |
+|  Workshop Manual       | [AI Tour MAAS 15-minute theatre talk](./LAB_MANUAL.md) | Lab Guide |
 
 ## Get Started
 
