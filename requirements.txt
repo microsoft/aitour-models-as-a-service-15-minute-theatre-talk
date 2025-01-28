@@ -1,0 +1,4 @@
+azure-ai-inference==1.0.0b7
+python-dotenv>=1.0.1, <2.0.0
+black
+ruff
