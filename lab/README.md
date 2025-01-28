@@ -1,54 +1,31 @@
 # Session folder
 
-This folder contains the public facing files for the lab `WRK552`.
+This folder contains the public facing files for the lab `DIS188`.
 
-## WRK552: Build Your First Agent with Azure AI Agent Service
+## DIS188: Azure AI Foundry Models as a Service 15-minute theatre talk
 
-This instructions are for participants of the Workshop "WRK552: Build Your First Agent with Azure AI Agent Service" at Microsoft AI Tour 2024-2025.
+You'll learn anbout AI Foundry Models as a Service and the Azure AI Model Inference SDKs. The goal is to showcase the variety of models accessible through Azure AI Foundry, emphasize their deployment simplicity, and the developer's flexibility to select different models according to requirements without code changes using the Azure AI Model Inference SDKs.
 
-!!! note "Microsoft AI Tour 2025 Registration Is Live"
+### 1. Setting up Azure Resources
+- **Objective**: Learn how to create Azure AI Foundry hubs and projects.
+- **Key Takeaways**:
+  - Understand the deployment process for serverless models, which are cost-effective and scalable.
+  - Familiarize yourself with the hub and project setup process.
 
-    The workshop is offered as an **instructor-led** session (WRK552) on the **Prototype to Production** track:
+### 2. Deploying Models as a Service
+- **Objective**: Learn how to manage hubs, projects, and deployments within Azure AI Foundry.
+- **Key Activities**:
+  - Work with the Azure AI Foundry interface to manage AI resources.
+  - Use the playground feature to interact with deployed models, test prompts, and customize system messages.
 
-    > Dive into the world of intelligent conversational agents with Azure AI Agent Service, a seamless blend of service and SDK that simplifies the development of robust AI-driven solutions. In this hands-on workshop, you’ll learn to create a powerful agent capable of answering sales-related queries, performing data analysis, generating visualizations, and integrating external data sources to deliver enhanced business insights.
+### 3. Introduction to the Azure AI Model Inference SDK
+- **Objective**: Understand how the Azure AI Model Inference SDK simplifies integrating AI models into applications.
+- **Key Takeaways**:
+  - Learn how to switch between models (e.g., Mistral and Phi 3) without changing code.
+  - Run the demo in GitHub Codespaces or VS Code Dev Containers.
+  - Set up environment variables and debug the code to explore model-specific outputs.
 
-    - [**Register to attend**](https://aitour.microsoft.com/) at a tour stop near you.
-    - [**View Lab resources**](https://aka.ms/aitour/WRK552) to continue your journey.
-
-If you're not a workshop participant at AI Tour, visit [Build your first agent with Azure AI Agent Service Workshop](https://aka.ms/aitour/WRK552/repo) for a version of this workshop you can run using your own Azure subscription.
-
-## Pre-Requisites
-
-To participate in this workshop, you will need:
-
-1. Your own laptop.
-   * It need only be capable of running a browser and GitHub Codespaces, so almost any laptop will do.
-   * A recent version of Edge, Chrome or Safari is recommended.
-2. Familiarity with Visual Studio Code.
-   * We'll be using Visual Studio Code (VS Code) as our development environment.
-   * If you're not familiar with VS Code, you can find it [here](https://code.visualstudio.com/).
-3. Familiarity with Python.
-   * We'll be using Python as our programming language.
-   * If you're not familiar with Python, you can find it [here](https://www.python.org/).
-
-## Get Started
-
-To get started you will need to follow the instructions in the Skillable environment. When you have authenticated into the Skillable environment, launch the Edge browser from the desktop. It's pinned to the taskbar. By default the browser will open with three tabs. The first tab is the lab manual, the second tab is the AI Foundry, the third is the Azure portal.
-
-Follow the instructions in that file to continue.
-
-## Discussions
-
-Build your first agent with Azure AI Agent Service is an open source project supported by Microsoft. See the [SUPPORT.md](../SUPPORT.md) file for details on how to raise issues or contribute. If you enjoyed this workshop please give the repository a ⭐ and share it with others.
-
-## Additional Resources and Continued Learning
-
-| Resources          | Links                             | Description        |
-|:-------------------|:----------------------------------|:-------------------|
-| Azure AI Agent Service  | [Learn more](https://learn.microsoft.com/azure/ai-services/agents/) | Learn more about Prompty, a new asset class and format for LLM prompts that aims to provide observability, understandability, and portability for developers |
-| Introducing Azure AI Agent Service | [Learn more](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357) | General announcement |
-| Python library | [Learn more](https://pypi.org/project/azure-ai-projects) | Learn about the Python AI Agents Library |
-
-## Source code
-
-The source code for this session can be found [here](https://aka.ms/aitour/WRK552/repo)
+### Lab Highlights
+- **Flexibility**: Seamlessly switch between models using the Azure AI Model Inference SDK.
+- **Simplicity**: Easy deployment and management of AI models via Azure AI Foundry.
+- **Cost-Effectiveness**: Utilize serverless models for scalable and budget-friendly AI solutions.
