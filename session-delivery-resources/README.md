@@ -7,8 +7,7 @@ We're glad you are here and look forward to your delivery of this amazing conten
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides, demo instructions & code.
 
 1. Read document in its entirety.
-2. Watch the video presentation
-3. Ask questions of the Lead Presenter
+1. Ask questions of the Lead Presenter
 
 ## Lab Introduction
 
@@ -28,6 +27,6 @@ by one or more Proctors who will provide individual assistant to participants du
 
 ## Slides
 
-This session is 99% demo. The slides are available to you as a presenter to help guide the session. The slides are available in the [slides](slides) folder.
+This session is 99% demo. The slides are available to you as a presenter to help guide the session. The slides are available in the [slides](../slides) folder.
 
 ### Presenting the slides

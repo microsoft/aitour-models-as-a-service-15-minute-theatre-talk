@@ -6,27 +6,7 @@ The goal is to showcase the variety of models accessible through Azure AI Foundr
 
 ## Learning Outcomes
 
-This workshop demonstrates how to leverage the Azure AI Foundry to deploy models as a service. The session will cover the following topics:
-
-### Azure AI Foundry
-
-Azure AI Foundry is a platform that enables developers to build, deploy, and manage AI models. It provides a range of pre-trained models that can be deployed as a service, as well as tools for training custom models.
-
-### AI Foundry Models as a Service
-
-Azure AI Foundry Models as a Service (MaaS) are pre-trained models that can be deployed as a service. They are accessible via REST APIs and SDKs and can be used for a variety of tasks, including text generation, text completion, and text classification.
-
-### Serverless Models
-
-Serverless models are deployed on-demand and are cost-effective. They are ideal for low to moderate usage scenarios. The models are deployed as a service and can be accessed via REST APIs and SDKs. This demo uses serverless models.
-
-### Managed Compute
-
-Managed compute models are deployed on dedicated resources and are ideal for high-usage scenarios. They are more expensive than serverless models but offer better performance and scalability.
-
-### AI Foundry Hubs
-
-Azure AI Foundry Hubs are the units of organization for models. They are deployed by region, and you can have multiple hubs in a region. The models are deployed by project, and projects are deployed by hub.
+This theatre session demonstrates how to leverage the Azure AI Foundry to deploy models as a service and use the Azure AI Model Inference SDKs to switch between models without changing code.
 
 ## Additional Resources and Continued Learning
 
