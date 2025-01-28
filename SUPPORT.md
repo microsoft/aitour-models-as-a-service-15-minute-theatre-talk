@@ -32,12 +32,12 @@ chances of your issue being dealt with quickly:
 * **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
   causing the problem (line of code or commit)
 
-You can file new issues by providing the above information at the corresponding repository's issues link: [https://aka.ms/aitour/WRK552/repo](https://aka.ms/aitour/WRK552/repo).
+You can file new issues by providing the above information at the corresponding repository's issues link: [AI Tour MAAS 15-minute theatre talk](https://github.com/microsoft/aitour-models-as-a-service-15-minute-theatre-talk).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-* Search the repository [https://aka.ms/aitour/WRK552/repo](https://aka.ms/aitour/WRK552/repo]) for an open or closed PR
+* Search the repository [AI Tour MAAS 15-minute theatre talk](https://github.com/microsoft/aitour-models-as-a-service-15-minute-theatre-talk) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 
 * Make your changes in a new git fork:

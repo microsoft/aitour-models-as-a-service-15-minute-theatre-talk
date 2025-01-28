@@ -10,17 +10,17 @@ There are three parts to the demo.
 
 ## Demo Goal
 
-The goal is to showcase the variety of models accessible through Azure AI Studio, emphasize their deployment simplicity, and the developer's flexibility to select different models according to requirements without code changes using the Azure AI Model Inference SDKs.
+The goal is to showcase the variety of models accessible through Azure AI Foundry, emphasize their deployment simplicity, and the developer's flexibility to select different models according to requirements without code changes using the Azure AI Model Inference SDKs.
 
 ## Terms Used
 
-### Azure AI Studio
+### Azure AI Foundry
 
-Azure AI Studio is a platform that enables developers to build, deploy, and manage AI models. It provides a range of pre-trained models that can be deployed as a service, as well as tools for training custom models.
+Azure AI Foundry is a platform that enables developers to build, deploy, and manage AI models. It provides a range of pre-trained models that can be deployed as a service, as well as tools for training custom models.
 
-### AI Studio Models as a Service
+### AI Foundry Models as a Service
 
-Azure AI Studio Models as a Service (MaaS) are pre-trained models that can be deployed as a service. They are accessible via REST APIs and SDKs and can be used for a variety of tasks, including text generation, text completion, and text classification.
+Azure AI Foundry Models as a Service (MaaS) are pre-trained models that can be deployed as a service. They are accessible via REST APIs and SDKs and can be used for a variety of tasks, including text generation, text completion, and text classification.
 
 ### Serverless Models
 
@@ -30,9 +30,9 @@ Serverless models are deployed on-demand and are cost-effective. They are ideal 
 
 Managed compute models are deployed on dedicated resources and are ideal for high-usage scenarios. They are more expensive than serverless models but offer better performance and scalability.
 
-### AI Studio Hubs
+### AI Foundry Hubs
 
-Azure AI Studio Hubs are the units of organization for models. They are deployed by region, and you can have multiple hubs in a region. The models are deployed by project, and projects are deployed by hub.
+Azure AI Foundry Hubs are the units of organization for models. They are deployed by region, and you can have multiple hubs in a region. The models are deployed by project, and projects are deployed by hub.
 
 ### Phi3
 
@@ -40,7 +40,7 @@ The [Phi-3 model](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-bl
 
 ### Mistral
 
-Mistral is a large language model available from [Mistral AI](https://mistral.ai/). It is a powerful model that can be used for a variety of tasks, including text generation, text completion, and text classification and is available in Azure AI Studio.
+Mistral is a large language model available from [Mistral AI](https://mistral.ai/). It is a powerful model that can be used for a variety of tasks, including text generation, text completion, and text classification and is available in Azure AI Foundry.
 
 ## Considerations
 
@@ -51,7 +51,7 @@ Mistral is a large language model available from [Mistral AI](https://mistral.ai
       - East US for Mistral
       - Sweden Central for Phi
 - Minimizing costs. The models are pay-as-you-go and cost fractions of cents to use. If you decide to use your Visual Studio linked account then you will need to connect your Credit Card but there are considerably more models available that you’ll be able to successfully deploy and will consume Azure credits. Note, you can’t remove your credit card once enabled.
-- While setting up AI Studio model resources is quick, it generally takes a few minutes to complete. Therefore, it's advisable to set up the demo resources in advance and then explain their setup process during the demonstration.
+- While setting up AI Foundry model resources is quick, it generally takes a few minutes to complete. Therefore, it's advisable to set up the demo resources in advance and then explain their setup process during the demonstration.
 
 ## What subscription to use
 
@@ -65,11 +65,11 @@ Follow these steps to pre-deploy the models for the demo.
 
 ### Model Availability
 
-Model availability is region dependent, so you will need to create multiple hubs based on the models you require. For the demo, create two Azure AI Studio hubs. One in East US for the Mistral model, and the other in Sweden Central for the Phi 3 model.
+Model availability is region dependent, so you will need to create multiple hubs based on the models you require. For the demo, create two Azure AI Foundry hubs. One in East US for the Mistral model, and the other in Sweden Central for the Phi 3 model.
 
 ### Create two Azure AI Hubs
 
-1. Navigate to [Azure AI Studio](https://ai.azure.com).
+1. Navigate to [Azure AI Foundry](https://ai.azure.com).
 2. Select **All Hubs**, then add a **New Hub**.
 3. Name your hub, be sure to include the location to make it easier to find (eg east-us).
 4. Create or reuse an existing resource group.
@@ -80,7 +80,7 @@ Model availability is region dependent, so you will need to create multiple hubs
 9. Select **Create**. It takes a couple of minutes to create the hub.
 10. **Repeat** the process to create a hub in Sweden Central for the Phi 3 model.
 
-    ![AI Studio Media Hubs](media/azure-ai-new-hub.png)
+    ![AI Foundry Media Hubs](media/azure-ai-new-hub.png)
 
 ### Create Projects
 
